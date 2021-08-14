@@ -1,0 +1,298 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    height: 55px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    width: 100%;
+}
+
+.nav-content {
+    padding: 0px 20px;
+    height: 55px;
+    width: 100%;
+}
+
+.logo {
+    margin-right: 22%;
+}
+
+.nav-search {
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(220, 220, 220);
+    text-indent: 40%;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-right: 200px;
+}
+
+.nav-icons {
+    margin-right: 15px;
+    font-size: 27px;
+    color: #444444;
+}
+
+.stories-box {
+    width: 600px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px;
+    margin-top: 90px;
+    margin-left: 20%;
+    padding: 10px;
+    margin-right:2px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.story-image {
+    border-radius: 50%;
+   width: 60px;
+}
+
+.story-username {
+    font-size: 14px;
+    color: rgb(69, 69, 69);
+    margin-top: 5px;
+}
+
+.post-card {
+    margin-top: 20px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px;
+    background-color: white;
+    width: 600px;
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.post-profile-image {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+}
+
+.post-title-details {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-username {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.post-location {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.post-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.post-icons {
+    font-size: 27px;
+    margin-top: 10px;
+    color: rgb(53, 53, 53);
+    font-weight: 100;
+}
+
+.right-icon {
+    margin-left: 79%;
+}
+
+.stats {
+    font-size: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.thinner-text {
+    font-weight: 500;
+}
+.view-all-comments {
+    color: rgb(132, 131, 131);
+    font-size: 15px;
+}
+.comment {
+    margin-right: 7px;
+}
+
+.duration-past {
+    color: rgb(159, 159, 159);
+    font-size: 11px;
+}
+
+.mx {
+    margin-right: 5px;
+    width:25px;
+}
+
+.new-comment-input {
+    border: none;
+    margin-left: 10px;
+}
+
+.new-comment {
+    display: flex;
+    align-items: center;
+}
+
+.post-text {
+    color: rgb(0,149,246);
+    margin-left: 60%;
+}
+#above-comment
+{
+    margin: 0;
+}
+
+/* SIDE CONTAINER */
+.aside-container
+{
+    width: 10%;
+    
+}
+
+section>section
+{
+    float: left;
+}
+/* section 
+{
+    border:1px solid red; padding:1px; 
+}  */
+
+.post-cardaside {
+    margin-top: 90px;
+    /* border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px; */
+    /* background-color: white; */ 
+    width: 350px;
+    margin-left: 750%;
+    padding: 10px;
+}
+.switch-text {
+    color: rgb(0,149,246);
+    margin-left: 100px;
+    margin-bottom: 12px;
+    font-size: small;
+    font-weight: bold;
+}
+.post-username2
+{
+    font-weight: 700;
+    font-size: 14px;  
+    padding-top: 20%;
+}
+.left
+{
+    position: relative;
+    padding-left: 30%;
+}
+.post-profile-image2
+{
+    border-radius: 50%;
+    width: 55px;
+    
+}
+.post-title2
+{
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+}
+.duration-past2 
+{
+    color: rgb(159, 159, 159);
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.seeall-text
+ {
+    color: rgb(96, 96, 96);
+    margin-left: 60px;
+    font-size: small;
+    font-weight: bold;
+}
+#suggestionC
+{
+    margin-top: 5px;
+}
+.post-title3
+{
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    
+}
+.post-profile-image3
+{
+    border-radius: 50%;
+    width: 45px;
+}
+.suggestionAD
+{
+    font-size: 12px;
+    color: rgb(96, 96, 96); 
+    
+    
+      
+}
+.post-username3
+{
+    font-weight:bold;
+    font-size: 14px;  
+    /* padding-top: 80%;  */
+}
+.follow-text
+{
+    color: rgb(0,149,246);
+    margin-left: 49px;
+    font-size: small;
+    font-weight: bold;
+}
+.trademark
+{
+    width: 300px;
+}
+
